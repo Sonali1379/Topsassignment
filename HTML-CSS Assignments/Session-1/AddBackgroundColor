@@ -1,0 +1,9 @@
+Without editing the HTML file:
+
+-> Open myprofile.html in Chrome.
+-> Right-click on my name (Sonali Swain).
+-> Click Inspect.
+-> Select the <h1> element.
+-> In the Styles panel, click inside the CSS rules.
+-> Add:
+        background-color : bisque;
