@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Playlist Bar</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a0c0d7;
+            color: rgb(22, 166, 163);
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        /* Playlist Container */
+        .playlist {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        /* Song Card */
+        .song-card {
+            display: flex;
+            align-items: center;      /* Vertically centers the text */
+            width: 220px;
+            height: 80px;
+            background-color: #3756a3;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .song-info h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .song-info p {
+            margin: 5px 0 0;
+            color: #b952b8;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Spotify Playlist</h1>
+
+    <div class="playlist">
+
+        <div class="song-card">
+            <div class="song-info">
+                <h3>Tum Hi Ho</h3>
+                <p>Arijit Singh</p>
+            </div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-info">
+                <h3>Lag Ja Gale</h3>
+                <p>Lata Mangeshkar</p>
+            </div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-info">
+                <h3>Pehla Nasha</h3>
+                <p>Udit Narayan & Sadhana Sargam</p>
+            </div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-info">
+                <h3>Chale Aana</h3>
+                <p>Armaan Malik</p>
+            </div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-info">
+                <h3>Jai Ho</h3>
+                <p>A. R. Rahman & Sukhwinder Singh</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
