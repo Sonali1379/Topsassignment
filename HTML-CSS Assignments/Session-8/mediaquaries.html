@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Card</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+            margin: 20px;
+        }
+
+        /* Product Card */
+        .product-card {
+            display: flex;
+            align-items: center;
+            width: 700px;
+            margin: auto;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* Product Image */
+        .product-image img {
+            width: 220px;
+            border-radius: 8px;
+        }
+
+        /* Product Details */
+        .product-details h2 {
+            margin-top: 0;
+            color: #2874F0;
+        }
+
+        .price {
+            color: green;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #2874F0;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1a5fd0;
+        }
+
+        /* Media Query for Mobile */
+        @media (max-width: 600px) {
+
+            .product-card {
+                flex-direction: column;
+                width: 90%;
+                text-align: center;
+            }
+
+            .product-image img {
+                width: 100%;
+                max-width: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="images/wireless headphone.jpeg" alt="Wireless Headphones">
+        </div>
+
+        <div class="product-details">
+            <h2>Wireless Bluetooth Headphones</h2>
+
+            <p>
+                Enjoy crystal-clear sound, long battery life,
+                and a comfortable fit for everyday listening.
+            </p>
+
+            <p class="price">₹1,999</p>
+
+            <button>Buy Now</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
